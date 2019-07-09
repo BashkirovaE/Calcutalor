@@ -16,5 +16,33 @@ namespace ObjectOrientedCalculator
         {
             InitializeComponent();
         }
+
+        private void Btn_plus_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble((txtA.Text));
+            double b = Convert.ToDouble((txtB.Text));
+            txtRes.Text = (a + b).ToString();
+        }
+
+        private void Btn_minus_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble((txtA.Text));
+            double b = Convert.ToDouble((txtB.Text));
+            txtRes.Text = (a - b).ToString();
+        }
+
+        private void Btn_mul_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble((txtA.Text));
+            double b = Convert.ToDouble((txtB.Text));
+            txtRes.Text = (a * b).ToString();
+        }
+
+        private void Btn_div_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble((txtA.Text));
+            double b = Convert.ToDouble((txtB.Text));
+            txtRes.Text = (a / b).ToString();
+        }
     }
 }
