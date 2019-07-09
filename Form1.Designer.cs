@@ -96,7 +96,7 @@
             this.btn_plus.TabIndex = 6;
             this.btn_plus.Text = "+";
             this.btn_plus.UseVisualStyleBackColor = true;
-            this.btn_plus.Click += new System.EventHandler(this.Btn_plus_Click);
+            this.btn_plus.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_minus
             // 
@@ -106,7 +106,7 @@
             this.btn_minus.TabIndex = 7;
             this.btn_minus.Text = "-";
             this.btn_minus.UseVisualStyleBackColor = true;
-            this.btn_minus.Click += new System.EventHandler(this.Btn_minus_Click);
+            this.btn_minus.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_mul
             // 
@@ -116,7 +116,7 @@
             this.btn_mul.TabIndex = 8;
             this.btn_mul.Text = "*";
             this.btn_mul.UseVisualStyleBackColor = true;
-            this.btn_mul.Click += new System.EventHandler(this.Btn_mul_Click);
+            this.btn_mul.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_div
             // 
@@ -126,7 +126,7 @@
             this.btn_div.TabIndex = 9;
             this.btn_div.Text = "/";
             this.btn_div.UseVisualStyleBackColor = true;
-            this.btn_div.Click += new System.EventHandler(this.Btn_div_Click);
+            this.btn_div.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // Form1
             // 

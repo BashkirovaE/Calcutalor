@@ -17,35 +17,29 @@ namespace ObjectOrientedCalculator
             InitializeComponent();
         }
 
-        private void Btn_plus_Click(object sender, EventArgs e)
-        {
-            double a = Convert.ToDouble((txtA.Text));
-            double b = Convert.ToDouble((txtB.Text));
-            double result = a + b;
-            txtRes.Text = result.ToString();
-        }
 
-        private void Btn_minus_Click(object sender, EventArgs e)
+        private void Btn_OP_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble((txtA.Text));
             double b = Convert.ToDouble((txtB.Text));
-            double result = a - b;
-            txtRes.Text = result.ToString();
-        }
-
-        private void Btn_mul_Click(object sender, EventArgs e)
-        {
-            double a = Convert.ToDouble((txtA.Text));
-            double b = Convert.ToDouble((txtB.Text));
-            double result = a * b;
-            txtRes.Text = result.ToString();
-        }
-
-        private void Btn_div_Click(object sender, EventArgs e)
-        {
-            double a = Convert.ToDouble((txtA.Text));
-            double b = Convert.ToDouble((txtB.Text));
-            double result = a / b;
+            double result = 0;
+            switch (((Button) sender).Name)
+            {
+                case "btn_plus":
+                    result = (a + b);
+                    break;
+                case "btn_minus":
+                    result = (a - b);
+                    break;
+                case "btn_mul":
+                    result = (a * b);
+                    break;
+                case "btn_div":
+                    result = (a / b);
+                    break;
+                default:
+                    throw new Exception ("Неизвестная операция");
+            }
             txtRes.Text = result.ToString();
         }
     }
