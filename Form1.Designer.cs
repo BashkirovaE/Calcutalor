@@ -34,8 +34,8 @@
             this.lbA = new System.Windows.Forms.Label();
             this.lbB = new System.Windows.Forms.Label();
             this.lbC = new System.Windows.Forms.Label();
-            this.btn_plus = new System.Windows.Forms.Button();
-            this.btn_minus = new System.Windows.Forms.Button();
+            this.btn_add = new System.Windows.Forms.Button();
+            this.btn_sub = new System.Windows.Forms.Button();
             this.btn_mul = new System.Windows.Forms.Button();
             this.btn_div = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -88,25 +88,25 @@
             this.lbC.TabIndex = 5;
             this.lbC.Text = "Результат";
             // 
-            // btn_plus
+            // btn_add
             // 
-            this.btn_plus.Location = new System.Drawing.Point(10, 51);
-            this.btn_plus.Name = "btn_plus";
-            this.btn_plus.Size = new System.Drawing.Size(75, 23);
-            this.btn_plus.TabIndex = 6;
-            this.btn_plus.Text = "+";
-            this.btn_plus.UseVisualStyleBackColor = true;
-            this.btn_plus.Click += new System.EventHandler(this.Btn_OP_Click);
+            this.btn_add.Location = new System.Drawing.Point(10, 51);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(75, 23);
+            this.btn_add.TabIndex = 6;
+            this.btn_add.Text = "+";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
-            // btn_minus
+            // btn_sub
             // 
-            this.btn_minus.Location = new System.Drawing.Point(91, 51);
-            this.btn_minus.Name = "btn_minus";
-            this.btn_minus.Size = new System.Drawing.Size(75, 23);
-            this.btn_minus.TabIndex = 7;
-            this.btn_minus.Text = "-";
-            this.btn_minus.UseVisualStyleBackColor = true;
-            this.btn_minus.Click += new System.EventHandler(this.Btn_OP_Click);
+            this.btn_sub.Location = new System.Drawing.Point(91, 51);
+            this.btn_sub.Name = "btn_sub";
+            this.btn_sub.Size = new System.Drawing.Size(75, 23);
+            this.btn_sub.TabIndex = 7;
+            this.btn_sub.Text = "-";
+            this.btn_sub.UseVisualStyleBackColor = true;
+            this.btn_sub.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_mul
             // 
@@ -135,8 +135,8 @@
             this.ClientSize = new System.Drawing.Size(337, 92);
             this.Controls.Add(this.btn_div);
             this.Controls.Add(this.btn_mul);
-            this.Controls.Add(this.btn_minus);
-            this.Controls.Add(this.btn_plus);
+            this.Controls.Add(this.btn_sub);
+            this.Controls.Add(this.btn_add);
             this.Controls.Add(this.lbC);
             this.Controls.Add(this.lbB);
             this.Controls.Add(this.lbA);
@@ -158,8 +158,8 @@
         private System.Windows.Forms.Label lbA;
         private System.Windows.Forms.Label lbB;
         private System.Windows.Forms.Label lbC;
-        private System.Windows.Forms.Button btn_plus;
-        private System.Windows.Forms.Button btn_minus;
+        private System.Windows.Forms.Button btn_add;
+        private System.Windows.Forms.Button btn_sub;
         private System.Windows.Forms.Button btn_mul;
         private System.Windows.Forms.Button btn_div;
     }

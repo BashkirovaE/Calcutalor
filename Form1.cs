@@ -20,26 +20,12 @@ namespace ObjectOrientedCalculator
 
         private void Btn_OP_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble((txtA.Text));
-            double b = Convert.ToDouble((txtB.Text));
+            double firstValue = Convert.ToDouble((txtA.Text));
+            double secondValue = Convert.ToDouble((txtB.Text));
             double result = 0;
-            switch (((Button) sender).Name)
-            {
-                case "btn_plus":
-                    result = (a + b);
-                    break;
-                case "btn_minus":
-                    result = (a - b);
-                    break;
-                case "btn_mul":
-                    result = (a * b);
-                    break;
-                case "btn_div":
-                    result = (a / b);
-                    break;
-                default:
-                    throw new Exception ("Неизвестная операция");
-            }
+            ITwoArgumentsCalculator calculator;
+            calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            result = calculator.Calculate(firstValue, secondValue);
             txtRes.Text = result.ToString();
         }
     }
