@@ -10,9 +10,7 @@ namespace ObjectOrientedCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {
-            double result = 0;
-            result = firstValue * secondValue;
-            return result;
+            return firstValue * secondValue;
         }
     }
 }

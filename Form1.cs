@@ -22,10 +22,8 @@ namespace ObjectOrientedCalculator
         {
             double firstValue = Convert.ToDouble((txtA.Text));
             double secondValue = Convert.ToDouble((txtB.Text));
-            double result = 0;
-            ITwoArgumentsCalculator calculator;
-            calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            result = calculator.Calculate(firstValue, secondValue);
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double  result = calculator.Calculate(firstValue, secondValue);
             txtRes.Text = result.ToString();
         }
     }
