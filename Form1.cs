@@ -21,28 +21,32 @@ namespace ObjectOrientedCalculator
         {
             double a = Convert.ToDouble((txtA.Text));
             double b = Convert.ToDouble((txtB.Text));
-            txtRes.Text = (a + b).ToString();
+            double result = a + b;
+            txtRes.Text = result.ToString();
         }
 
         private void Btn_minus_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble((txtA.Text));
             double b = Convert.ToDouble((txtB.Text));
-            txtRes.Text = (a - b).ToString();
+            double result = a - b;
+            txtRes.Text = result.ToString();
         }
 
         private void Btn_mul_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble((txtA.Text));
             double b = Convert.ToDouble((txtB.Text));
-            txtRes.Text = (a * b).ToString();
+            double result = a * b;
+            txtRes.Text = result.ToString();
         }
 
         private void Btn_div_Click(object sender, EventArgs e)
         {
             double a = Convert.ToDouble((txtA.Text));
             double b = Convert.ToDouble((txtB.Text));
-            txtRes.Text = (a / b).ToString();
+            double result = a / b;
+            txtRes.Text = result.ToString();
         }
     }
 }
