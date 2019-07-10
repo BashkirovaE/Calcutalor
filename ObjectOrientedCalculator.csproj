@@ -70,6 +70,7 @@
     <Compile Include="OneArgumentsFunctions\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\LogXYCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\MaxXYCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\MinXYCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\ModCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\MultiplyCalculator.cs" />

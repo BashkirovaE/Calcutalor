@@ -26,6 +26,8 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
                     return new ModCalculator();
                 case "btn_divxony":
                     return new DivCalculator();
+                case "btn_max":
+                    return new MaxXYCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }
