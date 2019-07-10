@@ -38,33 +38,34 @@
             this.btn_sub = new System.Windows.Forms.Button();
             this.btn_mul = new System.Windows.Forms.Button();
             this.btn_div = new System.Windows.Forms.Button();
+            this.btn_sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtA
             // 
-            this.txtA.Location = new System.Drawing.Point(13, 25);
+            this.txtA.Location = new System.Drawing.Point(15, 27);
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(100, 20);
             this.txtA.TabIndex = 0;
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(117, 25);
+            this.txtB.Location = new System.Drawing.Point(119, 27);
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(100, 20);
             this.txtB.TabIndex = 1;
             // 
             // txtRes
             // 
-            this.txtRes.Location = new System.Drawing.Point(223, 25);
+            this.txtRes.Location = new System.Drawing.Point(225, 27);
             this.txtRes.Name = "txtRes";
-            this.txtRes.Size = new System.Drawing.Size(100, 20);
+            this.txtRes.Size = new System.Drawing.Size(105, 20);
             this.txtRes.TabIndex = 2;
             // 
             // lbA
             // 
             this.lbA.AutoSize = true;
-            this.lbA.Location = new System.Drawing.Point(10, 9);
+            this.lbA.Location = new System.Drawing.Point(9, 11);
             this.lbA.Name = "lbA";
             this.lbA.Size = new System.Drawing.Size(97, 13);
             this.lbA.TabIndex = 3;
@@ -73,7 +74,7 @@
             // lbB
             // 
             this.lbB.AutoSize = true;
-            this.lbB.Location = new System.Drawing.Point(113, 9);
+            this.lbB.Location = new System.Drawing.Point(116, 11);
             this.lbB.Name = "lbB";
             this.lbB.Size = new System.Drawing.Size(93, 13);
             this.lbB.TabIndex = 4;
@@ -82,7 +83,7 @@
             // lbC
             // 
             this.lbC.AutoSize = true;
-            this.lbC.Location = new System.Drawing.Point(220, 9);
+            this.lbC.Location = new System.Drawing.Point(222, 11);
             this.lbC.Name = "lbC";
             this.lbC.Size = new System.Drawing.Size(59, 13);
             this.lbC.TabIndex = 5;
@@ -90,7 +91,7 @@
             // 
             // btn_add
             // 
-            this.btn_add.Location = new System.Drawing.Point(10, 51);
+            this.btn_add.Location = new System.Drawing.Point(12, 53);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(75, 23);
             this.btn_add.TabIndex = 6;
@@ -100,7 +101,7 @@
             // 
             // btn_sub
             // 
-            this.btn_sub.Location = new System.Drawing.Point(91, 51);
+            this.btn_sub.Location = new System.Drawing.Point(93, 53);
             this.btn_sub.Name = "btn_sub";
             this.btn_sub.Size = new System.Drawing.Size(75, 23);
             this.btn_sub.TabIndex = 7;
@@ -110,7 +111,7 @@
             // 
             // btn_mul
             // 
-            this.btn_mul.Location = new System.Drawing.Point(172, 51);
+            this.btn_mul.Location = new System.Drawing.Point(174, 53);
             this.btn_mul.Name = "btn_mul";
             this.btn_mul.Size = new System.Drawing.Size(75, 23);
             this.btn_mul.TabIndex = 8;
@@ -120,7 +121,7 @@
             // 
             // btn_div
             // 
-            this.btn_div.Location = new System.Drawing.Point(253, 51);
+            this.btn_div.Location = new System.Drawing.Point(255, 53);
             this.btn_div.Name = "btn_div";
             this.btn_div.Size = new System.Drawing.Size(75, 23);
             this.btn_div.TabIndex = 9;
@@ -128,11 +129,22 @@
             this.btn_div.UseVisualStyleBackColor = true;
             this.btn_div.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
+            // btn_sin
+            // 
+            this.btn_sin.Location = new System.Drawing.Point(12, 82);
+            this.btn_sin.Name = "btn_sin";
+            this.btn_sin.Size = new System.Drawing.Size(75, 23);
+            this.btn_sin.TabIndex = 10;
+            this.btn_sin.Text = "sin";
+            this.btn_sin.UseVisualStyleBackColor = true;
+            this.btn_sin.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 92);
+            this.ClientSize = new System.Drawing.Size(338, 121);
+            this.Controls.Add(this.btn_sin);
             this.Controls.Add(this.btn_div);
             this.Controls.Add(this.btn_mul);
             this.Controls.Add(this.btn_sub);
@@ -162,6 +174,7 @@
         private System.Windows.Forms.Button btn_sub;
         private System.Windows.Forms.Button btn_mul;
         private System.Windows.Forms.Button btn_div;
+        private System.Windows.Forms.Button btn_sin;
     }
 }
 

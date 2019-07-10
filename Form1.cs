@@ -27,5 +27,14 @@ namespace ObjectOrientedCalculator
             txtRes.Text = result.ToString();
             //vf
         }
+
+        private void OneArgumentFunc_Click(object sender, EventArgs e)
+        {
+            double firstValue = Convert.ToDouble((txtA.Text));
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstValue);
+            txtRes.Text = result.ToString();
+            //vf
+        }
     }
 }
