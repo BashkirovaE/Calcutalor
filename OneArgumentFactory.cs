@@ -14,6 +14,8 @@ namespace ObjectOrientedCalculator
             {
                 case "btn_sin":
                     return new SinusCalculator();
+                case "btn_cos":
+                    return new CosinusCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }

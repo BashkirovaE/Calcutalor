@@ -39,6 +39,7 @@
             this.btn_mul = new System.Windows.Forms.Button();
             this.btn_div = new System.Windows.Forms.Button();
             this.btn_sin = new System.Windows.Forms.Button();
+            this.btn_cos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtA
@@ -139,11 +140,22 @@
             this.btn_sin.UseVisualStyleBackColor = true;
             this.btn_sin.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
+            // btn_cos
+            // 
+            this.btn_cos.Location = new System.Drawing.Point(93, 82);
+            this.btn_cos.Name = "btn_cos";
+            this.btn_cos.Size = new System.Drawing.Size(75, 23);
+            this.btn_cos.TabIndex = 11;
+            this.btn_cos.Text = "cos";
+            this.btn_cos.UseVisualStyleBackColor = true;
+            this.btn_cos.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 121);
+            this.Controls.Add(this.btn_cos);
             this.Controls.Add(this.btn_sin);
             this.Controls.Add(this.btn_div);
             this.Controls.Add(this.btn_mul);
@@ -175,6 +187,7 @@
         private System.Windows.Forms.Button btn_mul;
         private System.Windows.Forms.Button btn_div;
         private System.Windows.Forms.Button btn_sin;
+        private System.Windows.Forms.Button btn_cos;
     }
 }
 
