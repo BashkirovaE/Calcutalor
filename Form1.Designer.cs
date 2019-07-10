@@ -40,16 +40,16 @@
             this.btn_div = new System.Windows.Forms.Button();
             this.btn_sin = new System.Windows.Forms.Button();
             this.btn_cos = new System.Windows.Forms.Button();
-            this.ln_x = new System.Windows.Forms.Button();
-            this.minus_x = new System.Windows.Forms.Button();
-            this.abs_x = new System.Windows.Forms.Button();
-            this.x_inv = new System.Windows.Forms.Button();
-            this.x_pow_2 = new System.Windows.Forms.Button();
-            this.rad_x = new System.Windows.Forms.Button();
-            this.deg_x = new System.Windows.Forms.Button();
-            this.min_x_y = new System.Windows.Forms.Button();
-            this.x_pow_y = new System.Windows.Forms.Button();
-            this.log_x_y = new System.Windows.Forms.Button();
+            this.btn_lnx = new System.Windows.Forms.Button();
+            this.btn_negativex = new System.Windows.Forms.Button();
+            this.btn_absx = new System.Windows.Forms.Button();
+            this.btn_1divx = new System.Windows.Forms.Button();
+            this.btn_xpow2 = new System.Windows.Forms.Button();
+            this.btn_radx = new System.Windows.Forms.Button();
+            this.btn_degx = new System.Windows.Forms.Button();
+            this.btn_minxy = new System.Windows.Forms.Button();
+            this.btn_xpowy = new System.Windows.Forms.Button();
+            this.btn_logxy = new System.Windows.Forms.Button();
             this.btn_tan = new System.Windows.Forms.Button();
             this.btn_ctan = new System.Windows.Forms.Button();
             this.btn_asin = new System.Windows.Forms.Button();
@@ -170,105 +170,105 @@
             this.btn_cos.UseVisualStyleBackColor = true;
             this.btn_cos.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // ln_x
+            // btn_lnx
             // 
-            this.ln_x.Location = new System.Drawing.Point(174, 140);
-            this.ln_x.Name = "ln_x";
-            this.ln_x.Size = new System.Drawing.Size(75, 23);
-            this.ln_x.TabIndex = 12;
-            this.ln_x.Text = "ln(x)";
-            this.ln_x.UseVisualStyleBackColor = true;
-            this.ln_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_lnx.Location = new System.Drawing.Point(174, 140);
+            this.btn_lnx.Name = "btn_lnx";
+            this.btn_lnx.Size = new System.Drawing.Size(75, 23);
+            this.btn_lnx.TabIndex = 12;
+            this.btn_lnx.Text = "ln(x)";
+            this.btn_lnx.UseVisualStyleBackColor = true;
+            this.btn_lnx.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // minus_x
+            // btn_negativex
             // 
-            this.minus_x.Location = new System.Drawing.Point(255, 140);
-            this.minus_x.Name = "minus_x";
-            this.minus_x.Size = new System.Drawing.Size(75, 23);
-            this.minus_x.TabIndex = 13;
-            this.minus_x.Text = "-x";
-            this.minus_x.UseVisualStyleBackColor = true;
-            this.minus_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_negativex.Location = new System.Drawing.Point(255, 140);
+            this.btn_negativex.Name = "btn_negativex";
+            this.btn_negativex.Size = new System.Drawing.Size(75, 23);
+            this.btn_negativex.TabIndex = 13;
+            this.btn_negativex.Text = "-x";
+            this.btn_negativex.UseVisualStyleBackColor = true;
+            this.btn_negativex.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // abs_x
+            // btn_absx
             // 
-            this.abs_x.Location = new System.Drawing.Point(255, 111);
-            this.abs_x.Name = "abs_x";
-            this.abs_x.Size = new System.Drawing.Size(75, 23);
-            this.abs_x.TabIndex = 14;
-            this.abs_x.Text = "abs(x)";
-            this.abs_x.UseVisualStyleBackColor = true;
-            this.abs_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_absx.Location = new System.Drawing.Point(255, 111);
+            this.btn_absx.Name = "btn_absx";
+            this.btn_absx.Size = new System.Drawing.Size(75, 23);
+            this.btn_absx.TabIndex = 14;
+            this.btn_absx.Text = "abs(x)";
+            this.btn_absx.UseVisualStyleBackColor = true;
+            this.btn_absx.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // x_inv
+            // btn_1divx
             // 
-            this.x_inv.Location = new System.Drawing.Point(174, 111);
-            this.x_inv.Name = "x_inv";
-            this.x_inv.Size = new System.Drawing.Size(75, 23);
-            this.x_inv.TabIndex = 15;
-            this.x_inv.Text = "1/x";
-            this.x_inv.UseVisualStyleBackColor = true;
-            this.x_inv.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_1divx.Location = new System.Drawing.Point(174, 111);
+            this.btn_1divx.Name = "btn_1divx";
+            this.btn_1divx.Size = new System.Drawing.Size(75, 23);
+            this.btn_1divx.TabIndex = 15;
+            this.btn_1divx.Text = "1/x";
+            this.btn_1divx.UseVisualStyleBackColor = true;
+            this.btn_1divx.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // x_pow_2
+            // btn_xpow2
             // 
-            this.x_pow_2.Location = new System.Drawing.Point(93, 111);
-            this.x_pow_2.Name = "x_pow_2";
-            this.x_pow_2.Size = new System.Drawing.Size(75, 23);
-            this.x_pow_2.TabIndex = 16;
-            this.x_pow_2.Text = "x^2";
-            this.x_pow_2.UseVisualStyleBackColor = true;
-            this.x_pow_2.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_xpow2.Location = new System.Drawing.Point(93, 111);
+            this.btn_xpow2.Name = "btn_xpow2";
+            this.btn_xpow2.Size = new System.Drawing.Size(75, 23);
+            this.btn_xpow2.TabIndex = 16;
+            this.btn_xpow2.Text = "x^2";
+            this.btn_xpow2.UseVisualStyleBackColor = true;
+            this.btn_xpow2.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // rad_x
+            // btn_radx
             // 
-            this.rad_x.Location = new System.Drawing.Point(12, 140);
-            this.rad_x.Name = "rad_x";
-            this.rad_x.Size = new System.Drawing.Size(75, 23);
-            this.rad_x.TabIndex = 17;
-            this.rad_x.Text = "rad(x)";
-            this.rad_x.UseVisualStyleBackColor = true;
-            this.rad_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_radx.Location = new System.Drawing.Point(12, 140);
+            this.btn_radx.Name = "btn_radx";
+            this.btn_radx.Size = new System.Drawing.Size(75, 23);
+            this.btn_radx.TabIndex = 17;
+            this.btn_radx.Text = "rad(x)";
+            this.btn_radx.UseVisualStyleBackColor = true;
+            this.btn_radx.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // deg_x
+            // btn_degx
             // 
-            this.deg_x.Location = new System.Drawing.Point(93, 140);
-            this.deg_x.Name = "deg_x";
-            this.deg_x.Size = new System.Drawing.Size(75, 23);
-            this.deg_x.TabIndex = 18;
-            this.deg_x.Text = "deg(x)";
-            this.deg_x.UseVisualStyleBackColor = true;
-            this.deg_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
+            this.btn_degx.Location = new System.Drawing.Point(93, 140);
+            this.btn_degx.Name = "btn_degx";
+            this.btn_degx.Size = new System.Drawing.Size(75, 23);
+            this.btn_degx.TabIndex = 18;
+            this.btn_degx.Text = "deg(x)";
+            this.btn_degx.UseVisualStyleBackColor = true;
+            this.btn_degx.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
-            // min_x_y
+            // btn_minxy
             // 
-            this.min_x_y.Location = new System.Drawing.Point(12, 111);
-            this.min_x_y.Name = "min_x_y";
-            this.min_x_y.Size = new System.Drawing.Size(75, 23);
-            this.min_x_y.TabIndex = 19;
-            this.min_x_y.Text = "min(x,y)";
-            this.min_x_y.UseVisualStyleBackColor = true;
-            this.min_x_y.Click += new System.EventHandler(this.Btn_OP_Click);
+            this.btn_minxy.Location = new System.Drawing.Point(12, 111);
+            this.btn_minxy.Name = "btn_minxy";
+            this.btn_minxy.Size = new System.Drawing.Size(75, 23);
+            this.btn_minxy.TabIndex = 19;
+            this.btn_minxy.Text = "min(x,y)";
+            this.btn_minxy.UseVisualStyleBackColor = true;
+            this.btn_minxy.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
-            // x_pow_y
+            // btn_xpowy
             // 
-            this.x_pow_y.Location = new System.Drawing.Point(174, 82);
-            this.x_pow_y.Name = "x_pow_y";
-            this.x_pow_y.Size = new System.Drawing.Size(75, 23);
-            this.x_pow_y.TabIndex = 20;
-            this.x_pow_y.Text = "x^y";
-            this.x_pow_y.UseVisualStyleBackColor = true;
-            this.x_pow_y.Click += new System.EventHandler(this.Btn_OP_Click);
+            this.btn_xpowy.Location = new System.Drawing.Point(174, 82);
+            this.btn_xpowy.Name = "btn_xpowy";
+            this.btn_xpowy.Size = new System.Drawing.Size(75, 23);
+            this.btn_xpowy.TabIndex = 20;
+            this.btn_xpowy.Text = "x^y";
+            this.btn_xpowy.UseVisualStyleBackColor = true;
+            this.btn_xpowy.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
-            // log_x_y
+            // btn_logxy
             // 
-            this.log_x_y.Location = new System.Drawing.Point(255, 82);
-            this.log_x_y.Name = "log_x_y";
-            this.log_x_y.Size = new System.Drawing.Size(75, 23);
-            this.log_x_y.TabIndex = 21;
-            this.log_x_y.Text = "log x(y)";
-            this.log_x_y.UseVisualStyleBackColor = true;
-            this.log_x_y.Click += new System.EventHandler(this.Btn_OP_Click);
+            this.btn_logxy.Location = new System.Drawing.Point(255, 82);
+            this.btn_logxy.Name = "btn_logxy";
+            this.btn_logxy.Size = new System.Drawing.Size(75, 23);
+            this.btn_logxy.TabIndex = 21;
+            this.btn_logxy.Text = "log x(y)";
+            this.btn_logxy.UseVisualStyleBackColor = true;
+            this.btn_logxy.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_tan
             // 
@@ -385,16 +385,16 @@
             this.Controls.Add(this.btn_asin);
             this.Controls.Add(this.btn_ctan);
             this.Controls.Add(this.btn_tan);
-            this.Controls.Add(this.log_x_y);
-            this.Controls.Add(this.x_pow_y);
-            this.Controls.Add(this.min_x_y);
-            this.Controls.Add(this.deg_x);
-            this.Controls.Add(this.rad_x);
-            this.Controls.Add(this.x_pow_2);
-            this.Controls.Add(this.x_inv);
-            this.Controls.Add(this.abs_x);
-            this.Controls.Add(this.minus_x);
-            this.Controls.Add(this.ln_x);
+            this.Controls.Add(this.btn_logxy);
+            this.Controls.Add(this.btn_xpowy);
+            this.Controls.Add(this.btn_minxy);
+            this.Controls.Add(this.btn_degx);
+            this.Controls.Add(this.btn_radx);
+            this.Controls.Add(this.btn_xpow2);
+            this.Controls.Add(this.btn_1divx);
+            this.Controls.Add(this.btn_absx);
+            this.Controls.Add(this.btn_negativex);
+            this.Controls.Add(this.btn_lnx);
             this.Controls.Add(this.btn_cos);
             this.Controls.Add(this.btn_sin);
             this.Controls.Add(this.btn_div);
@@ -428,16 +428,16 @@
         private System.Windows.Forms.Button btn_div;
         private System.Windows.Forms.Button btn_sin;
         private System.Windows.Forms.Button btn_cos;
-        private System.Windows.Forms.Button ln_x;
-        private System.Windows.Forms.Button minus_x;
-        private System.Windows.Forms.Button abs_x;
-        private System.Windows.Forms.Button x_inv;
-        private System.Windows.Forms.Button x_pow_2;
-        private System.Windows.Forms.Button rad_x;
-        private System.Windows.Forms.Button deg_x;
-        private System.Windows.Forms.Button min_x_y;
-        private System.Windows.Forms.Button x_pow_y;
-        private System.Windows.Forms.Button log_x_y;
+        private System.Windows.Forms.Button btn_lnx;
+        private System.Windows.Forms.Button btn_negativex;
+        private System.Windows.Forms.Button btn_absx;
+        private System.Windows.Forms.Button btn_1divx;
+        private System.Windows.Forms.Button btn_xpow2;
+        private System.Windows.Forms.Button btn_radx;
+        private System.Windows.Forms.Button btn_degx;
+        private System.Windows.Forms.Button btn_minxy;
+        private System.Windows.Forms.Button btn_xpowy;
+        private System.Windows.Forms.Button btn_logxy;
         private System.Windows.Forms.Button btn_tan;
         private System.Windows.Forms.Button btn_ctan;
         private System.Windows.Forms.Button btn_asin;

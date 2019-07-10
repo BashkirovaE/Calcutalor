@@ -18,11 +18,11 @@ namespace ObjectOrientedCalculator.Factories
                     return new MultiplyCalculator();
                 case "btn_sub":
                     return new SubtractionCalculator();
-                case "x_pow_y":
+                case "btn_xpowy":
                     return new PowXYCalculator();
-                case "log_x_y":
+                case "btn_logxy":
                     return new LogXYCalculator();
-                case "min_x_y":
+                case "btn_minxy":
                     return new MinXYCalculator();
                 case "btn_mod":
                     return new ModCalculator();

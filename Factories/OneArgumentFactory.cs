@@ -15,19 +15,19 @@ namespace ObjectOrientedCalculator.Factories
                 case "btn_cos":
                     return new CosinusCalculator();
 
-                case "x_pow_2":
+                case "btn_xpow2":
                     return new Xpow2Calculator();
-                case "x_inv":
+                case "btn_1divx":
                     return new OnedivXCalculator();
-                case "abs_x":
+                case "btn_absx":
                     return new AbsXCalculator();
-                case "rad_x":
+                case "btn_radx":
                     return new RadXCalculator();
-                case "deg_x":
+                case "btn_degx":
                     return new DegXCalculator();
-                case "ln_x":
+                case "btn_lnx":
                     return new LnXCalculator();
-                case "minus_x":
+                case "btn_negativex":
                     return new MinusXCalculator();
                 case "btn_tan":
                     return new TanCalculator();
