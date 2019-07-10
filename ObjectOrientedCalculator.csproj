@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentsFunctions\ArcsinCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\CtanCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\OnedivXCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\AbsXCalculator.cs" />
