@@ -1,6 +1,8 @@
 ﻿using System;
+using ObjectOrientedCalculator.Interfaces;
+using ObjectOrientedCalculator.OneArgumentsFunctions;
 
-namespace ObjectOrientedCalculator.OneArgumentsFunctions
+namespace ObjectOrientedCalculator.Factories
 {
     public static class OneArgumentFactory
     {

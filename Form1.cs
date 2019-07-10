@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using ObjectOrientedCalculator.Factories;
+using ObjectOrientedCalculator.Interfaces;
 using ObjectOrientedCalculator.OneArgumentsFunctions;
 using ObjectOrientedCalculator.TwoArgumentsFunctions;
 

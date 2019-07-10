@@ -1,4 +1,6 @@
-﻿namespace ObjectOrientedCalculator.OneArgumentsFunctions
+﻿using ObjectOrientedCalculator.Interfaces;
+
+namespace ObjectOrientedCalculator.OneArgumentsFunctions
 {
     public class OnedivXCalculator : IOneArgumentCalculator
     {

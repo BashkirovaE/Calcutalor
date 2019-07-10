@@ -1,4 +1,6 @@
-﻿namespace ObjectOrientedCalculator.TwoArgumentsFunctions
+﻿using ObjectOrientedCalculator.Interfaces;
+
+namespace ObjectOrientedCalculator.TwoArgumentsFunctions
 {
     public class AverageCalculator : ITwoArgumentsCalculator
     {

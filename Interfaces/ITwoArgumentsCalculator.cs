@@ -1,4 +1,4 @@
-﻿namespace ObjectOrientedCalculator.TwoArgumentsFunctions
+﻿namespace ObjectOrientedCalculator.Interfaces
 {
     public interface ITwoArgumentsCalculator
     {
