@@ -52,6 +52,7 @@
     <Compile Include="OneArgumentsFunctions\LnXCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\MinusXCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\RadXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\TanCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\Xpow2Calculator.cs" />
     <Compile Include="TwoArgumentsFunctions\AdditionCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\CosinusCalculator.cs" />

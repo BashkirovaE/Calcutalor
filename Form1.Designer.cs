@@ -278,6 +278,7 @@
             this.btn_tan.TabIndex = 22;
             this.btn_tan.Text = "tan";
             this.btn_tan.UseVisualStyleBackColor = true;
+            this.btn_tan.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // btn_ctan
             // 
@@ -287,6 +288,7 @@
             this.btn_ctan.TabIndex = 23;
             this.btn_ctan.Text = "ctan";
             this.btn_ctan.UseVisualStyleBackColor = true;
+            this.btn_ctan.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // btn_asin
             // 
@@ -296,6 +298,7 @@
             this.btn_asin.TabIndex = 25;
             this.btn_asin.Text = "arcsin";
             this.btn_asin.UseVisualStyleBackColor = true;
+            this.btn_asin.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // btn_acos
             // 
@@ -305,6 +308,7 @@
             this.btn_acos.TabIndex = 26;
             this.btn_acos.Text = "arccos";
             this.btn_acos.UseVisualStyleBackColor = true;
+            this.btn_acos.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // btn_atan
             // 
@@ -314,6 +318,7 @@
             this.btn_atan.TabIndex = 27;
             this.btn_atan.Text = "arctan";
             this.btn_atan.UseVisualStyleBackColor = true;
+            this.btn_atan.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // btn_mod
             // 
@@ -323,6 +328,7 @@
             this.btn_mod.TabIndex = 28;
             this.btn_mod.Text = "mod";
             this.btn_mod.UseVisualStyleBackColor = true;
+            this.btn_mod.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_divxony
             // 
@@ -332,6 +338,7 @@
             this.btn_divxony.TabIndex = 29;
             this.btn_divxony.Text = "div";
             this.btn_divxony.UseVisualStyleBackColor = true;
+            this.btn_divxony.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_max
             // 
@@ -341,6 +348,7 @@
             this.btn_max.TabIndex = 30;
             this.btn_max.Text = "max(x,y)";
             this.btn_max.UseVisualStyleBackColor = true;
+            this.btn_max.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_average
             // 
@@ -350,6 +358,7 @@
             this.btn_average.TabIndex = 31;
             this.btn_average.Text = "average";
             this.btn_average.UseVisualStyleBackColor = true;
+            this.btn_average.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // btn_geometric
             // 
@@ -359,6 +368,7 @@
             this.btn_geometric.TabIndex = 32;
             this.btn_geometric.Text = "geometric";
             this.btn_geometric.UseVisualStyleBackColor = true;
+            this.btn_geometric.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // Form1
             // 
