@@ -25,6 +25,7 @@ namespace ObjectOrientedCalculator
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double  result = calculator.Calculate(firstValue, secondValue);
             txtRes.Text = result.ToString();
+            //vf
         }
     }
 }
