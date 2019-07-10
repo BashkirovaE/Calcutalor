@@ -35,7 +35,8 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
                     return new ArcsinCalculator();
                 case "btn_acos":
                     return new ArccosCalculator();
-
+                case "btn_atan":
+                    return new ArctanCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }

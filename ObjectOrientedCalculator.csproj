@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="OneArgumentsFunctions\ArccosCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\ArcsinCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\ArctanCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\CtanCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\OnedivXCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\AbsXCalculator.cs" />
