@@ -29,6 +29,8 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
                     return new MinusXCalculator();
                 case "btn_tan":
                     return new TanCalculator();
+                case "btn_ctan":
+                    return new CtanCalculator();
 
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
