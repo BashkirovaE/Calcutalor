@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsFunctions\DivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsFunctions\MultiplyCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsFunctions\SubtractionCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ObjectOrientedCalculator.csproj">
