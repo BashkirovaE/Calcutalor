@@ -168,6 +168,7 @@
             this.ln_x.TabIndex = 12;
             this.ln_x.Text = "ln(x)";
             this.ln_x.UseVisualStyleBackColor = true;
+            this.ln_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // minus_x
             // 
@@ -177,6 +178,7 @@
             this.minus_x.TabIndex = 13;
             this.minus_x.Text = "-x";
             this.minus_x.UseVisualStyleBackColor = true;
+            this.minus_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // abs_x
             // 
@@ -186,6 +188,7 @@
             this.abs_x.TabIndex = 14;
             this.abs_x.Text = "abs(x)";
             this.abs_x.UseVisualStyleBackColor = true;
+            this.abs_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // x_inv
             // 
@@ -195,15 +198,17 @@
             this.x_inv.TabIndex = 15;
             this.x_inv.Text = "1/x";
             this.x_inv.UseVisualStyleBackColor = true;
+            this.x_inv.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // x_pow_2
             // 
-            this.x_pow_2.Location = new System.Drawing.Point(12, 111);
+            this.x_pow_2.Location = new System.Drawing.Point(93, 111);
             this.x_pow_2.Name = "x_pow_2";
             this.x_pow_2.Size = new System.Drawing.Size(75, 23);
             this.x_pow_2.TabIndex = 16;
             this.x_pow_2.Text = "x^2";
             this.x_pow_2.UseVisualStyleBackColor = true;
+            this.x_pow_2.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // rad_x
             // 
@@ -213,6 +218,7 @@
             this.rad_x.TabIndex = 17;
             this.rad_x.Text = "rad(x)";
             this.rad_x.UseVisualStyleBackColor = true;
+            this.rad_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // deg_x
             // 
@@ -222,15 +228,17 @@
             this.deg_x.TabIndex = 18;
             this.deg_x.Text = "deg(x)";
             this.deg_x.UseVisualStyleBackColor = true;
+            this.deg_x.Click += new System.EventHandler(this.OneArgumentFunc_Click);
             // 
             // min_x_y
             // 
-            this.min_x_y.Location = new System.Drawing.Point(93, 111);
+            this.min_x_y.Location = new System.Drawing.Point(12, 111);
             this.min_x_y.Name = "min_x_y";
             this.min_x_y.Size = new System.Drawing.Size(75, 23);
             this.min_x_y.TabIndex = 19;
             this.min_x_y.Text = "min(x,y)";
             this.min_x_y.UseVisualStyleBackColor = true;
+            this.min_x_y.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // x_pow_y
             // 
@@ -240,6 +248,7 @@
             this.x_pow_y.TabIndex = 20;
             this.x_pow_y.Text = "x^y";
             this.x_pow_y.UseVisualStyleBackColor = true;
+            this.x_pow_y.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // log_x_y
             // 
@@ -249,6 +258,7 @@
             this.log_x_y.TabIndex = 21;
             this.log_x_y.Text = "log x(y)";
             this.log_x_y.UseVisualStyleBackColor = true;
+            this.log_x_y.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
             // Form1
             // 

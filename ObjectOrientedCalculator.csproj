@@ -57,11 +57,14 @@
     </Compile>
     <Compile Include="OneArgumentsFunctions\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\LogXYCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\MinXYCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\MultiplyCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\OneArgumentFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgumentsFunctions\SinusCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\PowXYCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\SubtractionCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
