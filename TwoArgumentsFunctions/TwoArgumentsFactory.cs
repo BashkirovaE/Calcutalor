@@ -30,6 +30,8 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
                     return new MaxXYCalculator();
                 case "btn_average":
                     return new AverageCalculator();
+                case "btn_geometric":
+                    return new GeometricCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }

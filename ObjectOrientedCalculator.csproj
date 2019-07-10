@@ -69,6 +69,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OneArgumentsFunctions\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\GeometricCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\LogXYCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\MaxXYCalculator.cs" />
