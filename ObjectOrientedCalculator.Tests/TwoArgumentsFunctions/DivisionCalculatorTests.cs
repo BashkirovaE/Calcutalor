@@ -10,8 +10,8 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
         [Test]
         public void CalculateTest()
         {
-            double expected = 0.666;
-            double actual = new DivisionCalculator().Calculate(2, 3);
+            double expected = 0.333;
+            double actual = new DivisionCalculator().Calculate(1, 3);
             Assert.AreEqual(expected, actual, 0.001);
         }
     }
