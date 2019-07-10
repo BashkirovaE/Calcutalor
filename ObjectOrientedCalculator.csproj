@@ -59,6 +59,7 @@
     <Compile Include="OneArgumentsFunctions\Xpow2Calculator.cs" />
     <Compile Include="TwoArgumentsFunctions\AdditionCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\CosinusCalculator.cs" />
+    <Compile Include="TwoArgumentsFunctions\AverageCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\DivCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\DivisionCalculator.cs" />
     <Compile Include="Form1.cs">

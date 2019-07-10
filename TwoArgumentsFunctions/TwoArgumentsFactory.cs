@@ -28,6 +28,8 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
                     return new DivCalculator();
                 case "btn_max":
                     return new MaxXYCalculator();
+                case "btn_average":
+                    return new AverageCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }
