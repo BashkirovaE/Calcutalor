@@ -50,6 +50,16 @@
             this.min_x_y = new System.Windows.Forms.Button();
             this.x_pow_y = new System.Windows.Forms.Button();
             this.log_x_y = new System.Windows.Forms.Button();
+            this.btn_tan = new System.Windows.Forms.Button();
+            this.btn_ctan = new System.Windows.Forms.Button();
+            this.btn_asin = new System.Windows.Forms.Button();
+            this.btn_acos = new System.Windows.Forms.Button();
+            this.btn_atan = new System.Windows.Forms.Button();
+            this.btn_mod = new System.Windows.Forms.Button();
+            this.btn_divxony = new System.Windows.Forms.Button();
+            this.btn_max = new System.Windows.Forms.Button();
+            this.btn_average = new System.Windows.Forms.Button();
+            this.btn_geometric = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtA
@@ -260,11 +270,111 @@
             this.log_x_y.UseVisualStyleBackColor = true;
             this.log_x_y.Click += new System.EventHandler(this.Btn_OP_Click);
             // 
+            // btn_tan
+            // 
+            this.btn_tan.Location = new System.Drawing.Point(12, 169);
+            this.btn_tan.Name = "btn_tan";
+            this.btn_tan.Size = new System.Drawing.Size(75, 23);
+            this.btn_tan.TabIndex = 22;
+            this.btn_tan.Text = "tan";
+            this.btn_tan.UseVisualStyleBackColor = true;
+            // 
+            // btn_ctan
+            // 
+            this.btn_ctan.Location = new System.Drawing.Point(93, 169);
+            this.btn_ctan.Name = "btn_ctan";
+            this.btn_ctan.Size = new System.Drawing.Size(75, 23);
+            this.btn_ctan.TabIndex = 23;
+            this.btn_ctan.Text = "ctan";
+            this.btn_ctan.UseVisualStyleBackColor = true;
+            // 
+            // btn_asin
+            // 
+            this.btn_asin.Location = new System.Drawing.Point(174, 169);
+            this.btn_asin.Name = "btn_asin";
+            this.btn_asin.Size = new System.Drawing.Size(75, 23);
+            this.btn_asin.TabIndex = 25;
+            this.btn_asin.Text = "arcsin";
+            this.btn_asin.UseVisualStyleBackColor = true;
+            // 
+            // btn_acos
+            // 
+            this.btn_acos.Location = new System.Drawing.Point(253, 169);
+            this.btn_acos.Name = "btn_acos";
+            this.btn_acos.Size = new System.Drawing.Size(75, 23);
+            this.btn_acos.TabIndex = 26;
+            this.btn_acos.Text = "arccos";
+            this.btn_acos.UseVisualStyleBackColor = true;
+            // 
+            // btn_atan
+            // 
+            this.btn_atan.Location = new System.Drawing.Point(12, 198);
+            this.btn_atan.Name = "btn_atan";
+            this.btn_atan.Size = new System.Drawing.Size(75, 23);
+            this.btn_atan.TabIndex = 27;
+            this.btn_atan.Text = "arctan";
+            this.btn_atan.UseVisualStyleBackColor = true;
+            // 
+            // btn_mod
+            // 
+            this.btn_mod.Location = new System.Drawing.Point(93, 198);
+            this.btn_mod.Name = "btn_mod";
+            this.btn_mod.Size = new System.Drawing.Size(75, 23);
+            this.btn_mod.TabIndex = 28;
+            this.btn_mod.Text = "mod";
+            this.btn_mod.UseVisualStyleBackColor = true;
+            // 
+            // btn_divxony
+            // 
+            this.btn_divxony.Location = new System.Drawing.Point(174, 198);
+            this.btn_divxony.Name = "btn_divxony";
+            this.btn_divxony.Size = new System.Drawing.Size(75, 23);
+            this.btn_divxony.TabIndex = 29;
+            this.btn_divxony.Text = "div";
+            this.btn_divxony.UseVisualStyleBackColor = true;
+            // 
+            // btn_max
+            // 
+            this.btn_max.Location = new System.Drawing.Point(253, 198);
+            this.btn_max.Name = "btn_max";
+            this.btn_max.Size = new System.Drawing.Size(75, 23);
+            this.btn_max.TabIndex = 30;
+            this.btn_max.Text = "max(x,y)";
+            this.btn_max.UseVisualStyleBackColor = true;
+            // 
+            // btn_average
+            // 
+            this.btn_average.Location = new System.Drawing.Point(12, 227);
+            this.btn_average.Name = "btn_average";
+            this.btn_average.Size = new System.Drawing.Size(75, 23);
+            this.btn_average.TabIndex = 31;
+            this.btn_average.Text = "average";
+            this.btn_average.UseVisualStyleBackColor = true;
+            // 
+            // btn_geometric
+            // 
+            this.btn_geometric.Location = new System.Drawing.Point(93, 227);
+            this.btn_geometric.Name = "btn_geometric";
+            this.btn_geometric.Size = new System.Drawing.Size(75, 23);
+            this.btn_geometric.TabIndex = 32;
+            this.btn_geometric.Text = "geometric";
+            this.btn_geometric.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 406);
+            this.Controls.Add(this.btn_geometric);
+            this.Controls.Add(this.btn_average);
+            this.Controls.Add(this.btn_max);
+            this.Controls.Add(this.btn_divxony);
+            this.Controls.Add(this.btn_mod);
+            this.Controls.Add(this.btn_atan);
+            this.Controls.Add(this.btn_acos);
+            this.Controls.Add(this.btn_asin);
+            this.Controls.Add(this.btn_ctan);
+            this.Controls.Add(this.btn_tan);
             this.Controls.Add(this.log_x_y);
             this.Controls.Add(this.x_pow_y);
             this.Controls.Add(this.min_x_y);
@@ -318,6 +428,16 @@
         private System.Windows.Forms.Button min_x_y;
         private System.Windows.Forms.Button x_pow_y;
         private System.Windows.Forms.Button log_x_y;
+        private System.Windows.Forms.Button btn_tan;
+        private System.Windows.Forms.Button btn_ctan;
+        private System.Windows.Forms.Button btn_asin;
+        private System.Windows.Forms.Button btn_acos;
+        private System.Windows.Forms.Button btn_atan;
+        private System.Windows.Forms.Button btn_mod;
+        private System.Windows.Forms.Button btn_divxony;
+        private System.Windows.Forms.Button btn_max;
+        private System.Windows.Forms.Button btn_average;
+        private System.Windows.Forms.Button btn_geometric;
     }
 }
 
