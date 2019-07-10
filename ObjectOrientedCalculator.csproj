@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentsFunctions\OnedivXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\AbsXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\DegXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\LnXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\MinusXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\RadXCalculator.cs" />
+    <Compile Include="OneArgumentsFunctions\Xpow2Calculator.cs" />
     <Compile Include="TwoArgumentsFunctions\AdditionCalculator.cs" />
     <Compile Include="OneArgumentsFunctions\CosinusCalculator.cs" />
     <Compile Include="TwoArgumentsFunctions\DivisionCalculator.cs" />

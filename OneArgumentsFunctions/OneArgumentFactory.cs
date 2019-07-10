@@ -12,6 +12,22 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
                     return new SinusCalculator();
                 case "btn_cos":
                     return new CosinusCalculator();
+
+                case "x_pow_2":
+                    return new Xpow2Calculator();
+                case "x_inv":
+                    return new OnedivXCalculator();
+                case "abs_x":
+                    return new AbsXCalculator();
+                case "rad_x":
+                    return new RadXCalculator();
+                case "deg_x":
+                    return new DegXCalculator();
+                case "ln_x":
+                    return new LnXCalculator();
+                case "minus_x":
+                    return new MinusXCalculator();
+
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
             }
