@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ObjectOrientedCalculator.OneArgumentsFunctions
 {
@@ -10,7 +6,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     {
         public double Calculate(double firstValue)
         {
-            return (firstValue * Math.PI/180);
+            return (firstValue * Math.PI / 180);
         }
     }
 }

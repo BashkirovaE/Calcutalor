@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ObjectOrientedCalculator.OneArgumentsFunctions;
-
-namespace ObjectOrientedCalculator.TwoArgumentsFunctions
+﻿namespace ObjectOrientedCalculator.TwoArgumentsFunctions
 {
-    public class ModCalculator:ITwoArgumentsCalculator
+    public class ModCalculator : ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

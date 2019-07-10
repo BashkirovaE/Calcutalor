@@ -352,7 +352,7 @@
             // 
             // btn_average
             // 
-            this.btn_average.Location = new System.Drawing.Point(12, 227);
+            this.btn_average.Location = new System.Drawing.Point(93, 227);
             this.btn_average.Name = "btn_average";
             this.btn_average.Size = new System.Drawing.Size(75, 23);
             this.btn_average.TabIndex = 31;
@@ -362,7 +362,7 @@
             // 
             // btn_geometric
             // 
-            this.btn_geometric.Location = new System.Drawing.Point(93, 227);
+            this.btn_geometric.Location = new System.Drawing.Point(174, 227);
             this.btn_geometric.Name = "btn_geometric";
             this.btn_geometric.Size = new System.Drawing.Size(75, 23);
             this.btn_geometric.TabIndex = 32;
@@ -374,7 +374,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 406);
+            this.ClientSize = new System.Drawing.Size(340, 261);
             this.Controls.Add(this.btn_geometric);
             this.Controls.Add(this.btn_average);
             this.Controls.Add(this.btn_max);
