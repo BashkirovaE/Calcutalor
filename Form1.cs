@@ -15,8 +15,17 @@ namespace ObjectOrientedCalculator
 
         private void Btn_OP_Click(object sender, EventArgs e)
         {
-            double firstValue = Convert.ToDouble((txtA.Text));
-            double secondValue = Convert.ToDouble((txtB.Text));
+            double firstValue = 0;
+            double secondValue = 0;
+            try
+            {
+                firstValue = Convert.ToDouble((txtA.Text.Replace('.', ',')));
+                secondValue = Convert.ToDouble((txtB.Text.Replace('.', ',')));
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value");
+            }
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstValue, secondValue);
             txtRes.Text = result.ToString();
@@ -25,7 +34,16 @@ namespace ObjectOrientedCalculator
 
         private void OneArgumentFunc_Click(object sender, EventArgs e)
         {
-            double firstValue = Convert.ToDouble((txtA.Text));
+            double firstValue = 0;
+            try
+            {
+                firstValue = Convert.ToDouble((txtA.Text).Replace('.', ','));
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value");
+            }
+            
             IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstValue);
             txtRes.Text = result.ToString();
