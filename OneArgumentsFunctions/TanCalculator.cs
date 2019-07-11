@@ -7,7 +7,8 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     {
         public double Calculate(double firstValue)
         {
-            if (((firstValue % (Math.PI/2))==0 && (firstValue % (Math.PI/2*3) == 0)))
+            
+            if(firstValue == (Math.PI / 2) || firstValue == (3 * Math.PI / 2))
             {
                 throw new Exception("Out of range");
             }

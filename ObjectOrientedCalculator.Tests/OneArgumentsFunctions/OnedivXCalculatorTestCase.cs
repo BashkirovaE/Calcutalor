@@ -1,4 +1,5 @@
-﻿using ObjectOrientedCalculator.OneArgumentsFunctions;
+﻿using System;
+using ObjectOrientedCalculator.OneArgumentsFunctions;
 using NUnit.Framework;
 
 namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
@@ -6,6 +7,12 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     [TestFixture]
     public class OnedivXCalculatorTestCase
     {
+        [Test]
+        public void OnedivXCaltulatorExtentionTest()
+        {
+            Assert.Throws<Exception>(() => new OnedivXCalculator().Calculate(0));
+        }
+
         [TestCase(2, 0.5)]
         [TestCase(-2, -0.5)]
         [TestCase(-4, -0.25)]

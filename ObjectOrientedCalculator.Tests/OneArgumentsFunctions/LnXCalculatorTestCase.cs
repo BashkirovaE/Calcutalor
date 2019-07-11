@@ -7,6 +7,12 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     [TestFixture]
     public class LnXCalculatorTestCase
     {
+        [Test]
+        public void LnXCaltulatorExtentionTest()
+        {
+            Assert.Throws<Exception>(() => new LnXCalculator().Calculate(-10));
+        }
+
         [TestCase(Math.E*Math.E, 2)]
         [TestCase(Math.E, 1)]
         [TestCase(1, 0)]

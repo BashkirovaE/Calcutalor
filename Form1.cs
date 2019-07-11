@@ -74,7 +74,7 @@ namespace ObjectOrientedCalculator
                 MessageBox.Show("Unknown calculator type");
             }
 
-            double result = 0;
+            /*double result = 0;
             try
             {
                 result = calculator.Calculate(firstValue);
@@ -82,7 +82,9 @@ namespace ObjectOrientedCalculator
             catch
             {
                 MessageBox.Show("Wrong value. Can't calculate");
-            }
+            }*/
+            double result = calculator.Calculate(firstValue);
+
             txtRes.Text = result.ToString();
         }
     }

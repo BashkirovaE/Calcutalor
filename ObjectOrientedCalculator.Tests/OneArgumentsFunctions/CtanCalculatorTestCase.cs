@@ -7,6 +7,12 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     [TestFixture]
     public class CtanCalculatorTestCase
     {
+        [Test]
+        public void CtanCaltulatorExtentionTest()
+        {
+            Assert.Throws<Exception>(() => new CtanCalculator().Calculate(0));
+        }
+
         [TestCase(Math.PI/6, 1.732)]
         [TestCase(Math.PI/4, 1)]
         [TestCase(Math.PI/2, 0)]
