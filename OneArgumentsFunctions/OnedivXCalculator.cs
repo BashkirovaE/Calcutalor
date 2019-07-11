@@ -1,4 +1,5 @@
-﻿using ObjectOrientedCalculator.Interfaces;
+﻿using System;
+using ObjectOrientedCalculator.Interfaces;
 
 namespace ObjectOrientedCalculator.OneArgumentsFunctions
 {
@@ -6,6 +7,10 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     {
         public double Calculate(double firstValue)
         {
+            if (firstValue == 0)
+            {
+                throw new Exception("Out of range");
+            }
             return (1 / firstValue);
         }
     }

@@ -7,6 +7,10 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     {
         public double Calculate(double firstValue)
         {
+            if (!((firstValue <= 1)&&(firstValue >= -1)))
+            {
+                throw new Exception("Out of range");
+            }
             return Math.Acos(firstValue);
         }
     }

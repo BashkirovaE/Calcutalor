@@ -7,6 +7,10 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     {
         public double Calculate(double firstValue)
         {
+            if (firstValue < 0)
+            {
+                throw new Exception("Out of range");
+            }
             return (Math.Log(firstValue, Math.E));
         }
     }
