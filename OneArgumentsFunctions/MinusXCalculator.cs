@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     public class MinusXCalculator : IOneArgumentCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the negative(x) value
         /// </summary>
         /// <param name="firstValue">argument</param>
         /// <returns>result</returns>

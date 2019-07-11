@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class DivisionCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the quotient of two numbers
         /// </summary>
         /// <param name="firstValue">dividend</param>
         /// <param name="secondValue">divider</param>

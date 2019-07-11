@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     public class ArctanCalculator : IOneArgumentCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the value of function arctan(x)
         /// </summary>
         /// <param name="firstValue">argument</param>
         /// <returns>result</returns>

@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class ModCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the remainder of the division
         /// </summary>
         /// <param name="firstValue">dividend</param>
         /// <param name="secondValue">divider</param>

@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class LogXYCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the logarithm of y over the base x
         /// </summary>
         /// <param name="firstValue">base of logarithm</param>
         /// <param name="secondValue">argument</param>

@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class PowXYCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method exponentiating the number x to y 
         /// </summary>
         /// <param name="firstValue">base</param>
         /// <param name="secondValue">exponent</param>

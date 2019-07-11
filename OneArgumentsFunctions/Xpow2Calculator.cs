@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     public class Xpow2Calculator : IOneArgumentCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that squares the number
         /// </summary>
         /// <param name="firstValue">argument</param>
         /// <returns>result</returns>

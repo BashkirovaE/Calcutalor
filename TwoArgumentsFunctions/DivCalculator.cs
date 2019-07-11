@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class DivCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the integer part of a division
         /// </summary>
         /// <param name="firstValue">dividend</param>
         /// <param name="secondValue">divider</param>

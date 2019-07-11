@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class AverageCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the arithmetic average
         /// </summary>
         /// <param name="firstValue">argument one</param>
         /// <param name="secondValue">argument two</param>

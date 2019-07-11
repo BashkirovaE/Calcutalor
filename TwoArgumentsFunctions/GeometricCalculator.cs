@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class GeometricCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the geometric mean
         /// </summary>
         /// <param name="firstValue">argument one</param>
         /// <param name="secondValue">argument two</param>

@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     public class AbsXCalculator : IOneArgumentCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that calculates the modulus of the number
         /// </summary>
         /// <param name="firstValue">argument</param>
         /// <returns>result</returns>

@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     public class MinXYCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that selects the minimum of two numbers
         /// </summary>
         /// <param name="firstValue">argument one</param>
         /// <param name="secondValue">argument two</param>

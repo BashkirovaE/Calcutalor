@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
     public class RadXCalculator : IOneArgumentCalculator
     {
         /// <summary>
-        /// The method that calculates the value
+        /// The method that converts a value from degrees to radians
         /// </summary>
         /// <param name="firstValue">argument (value in degrees)</param>
         /// <returns>result</returns>
