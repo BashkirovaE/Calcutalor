@@ -1,11 +1,19 @@
-﻿using ObjectOrientedCalculator.TwoArgumentsFunctions;
+﻿using System;
+using ObjectOrientedCalculator.TwoArgumentsFunctions;
 using NUnit.Framework;
+using ObjectOrientedCalculator.OneArgumentsFunctions;
 
 namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
 {
     [TestFixture]
     public class DivCalculatorTestCase
     {
+        [Test]
+        public void DivCalculatorExtentionTest()
+        {
+            Assert.Throws<Exception>(() => new DivCalculator().Calculate(5, 0));
+        }
+
         [TestCase(6, 3, 2)]
         [TestCase(5, 2, 2)]
         [TestCase(-7, 4, -1)]

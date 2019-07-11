@@ -1,4 +1,5 @@
 ﻿
+using System;
 using ObjectOrientedCalculator.TwoArgumentsFunctions;
 using NUnit.Framework;
 
@@ -7,6 +8,11 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     [TestFixture]
     public class DivisionCalculatorTests
     {
+        [Test]
+        public void DivisionCalculatorExtentionTest()
+        {
+            Assert.Throws<Exception>(() => new DivisionCalculator().Calculate(10, 0));
+        }
         [Test]
         public void CalculateTest()
         {
