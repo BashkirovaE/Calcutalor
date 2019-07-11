@@ -47,11 +47,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentsFunctions\ArccosCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentsFunctions\ArcsinCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentsFunctions\ArctanCalculatorTestCase.cs" />
+    <Compile Include="OneArgumentsFunctions\CtanCalculatorTestCase.cs" />
     <Compile Include="OneArgumentsFunctions\SinusCalculatorTests.cs" />
     <Compile Include="OneArgumentsFunctions\CosinusCalculatorTests.cs" />
+    <Compile Include="OneArgumentsFunctions\TanCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentsFunctions\AdditionCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArgumentsFunctions\AverageCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentsFunctions\DivCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentsFunctions\DivisionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsFunctions\GeometricCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentsFunctions\MaxXYCalculatorTestCase.cs" />
+    <Compile Include="TwoArgumentsFunctions\ModCalculatorTestCase.cs" />
     <Compile Include="TwoArgumentsFunctions\MultiplyCalculatorTests.cs" />
     <Compile Include="TwoArgumentsFunctions\SubtractionCalculatorTests.cs" />
   </ItemGroup>
