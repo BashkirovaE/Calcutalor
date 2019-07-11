@@ -4,8 +4,16 @@ using ObjectOrientedCalculator.OneArgumentsFunctions;
 
 namespace ObjectOrientedCalculator.Factories
 {
+    /// <summary>
+    /// Factory class, returns the required one argument calculator
+    /// </summary>
     public static class OneArgumentFactory
     {
+        /// <summary>
+        /// returns the required one argument calculator by the name of the pressed button
+        /// </summary>
+        /// <param name="calculatorName">name of the pressed button</param>
+        /// <returns>object calculator</returns>
         public static IOneArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
@@ -14,7 +22,6 @@ namespace ObjectOrientedCalculator.Factories
                     return new SinusCalculator();
                 case "btn_cos":
                     return new CosinusCalculator();
-
                 case "btn_xpow2":
                     return new Xpow2Calculator();
                 case "btn_1divx":
