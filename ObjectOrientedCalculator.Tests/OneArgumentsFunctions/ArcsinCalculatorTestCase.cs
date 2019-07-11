@@ -1,5 +1,4 @@
-﻿using System;
-using ObjectOrientedCalculator.OneArgumentsFunctions;
+﻿using ObjectOrientedCalculator.OneArgumentsFunctions;
 using NUnit.Framework;
 
 namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
