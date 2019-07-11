@@ -9,7 +9,7 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     public class DivisionCalculatorTests
     {
         [Test]
-        public void DivisionCalculatorExtentionTest()
+        public void DivisionCalculatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new DivisionCalculator().Calculate(10, 0));
         }

@@ -37,19 +37,17 @@ namespace ObjectOrientedCalculator
                 MessageBox.Show("Unknown calculator type");
             }
 
-            double result = 0;
+            
             try
             {
-                result = calculator.Calculate(firstValue, secondValue);
+                double result  = calculator.Calculate(firstValue, secondValue);
+                txtRes.Text = result.ToString();
             }
             catch
             {
                 MessageBox.Show("Wrong value. Can't calculate");
             }
-            
 
-            txtRes.Text = result.ToString();
-            //vf
         }
 
         private void OneArgumentFunc_Click(object sender, EventArgs e)
@@ -74,18 +72,16 @@ namespace ObjectOrientedCalculator
                 MessageBox.Show("Unknown calculator type");
             }
 
-            /*double result = 0;
             try
             {
-                result = calculator.Calculate(firstValue);
+                double result = calculator.Calculate(firstValue);
+                txtRes.Text = result.ToString();
             }
             catch
             {
                 MessageBox.Show("Wrong value. Can't calculate");
-            }*/
-            double result = calculator.Calculate(firstValue);
+            }
 
-            txtRes.Text = result.ToString();
         }
     }
 }

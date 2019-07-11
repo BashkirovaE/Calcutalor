@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     public class ArcsinCalculatorTestCase
     {
         [Test]
-        public void ArcsinCaltulatorExtentionTest()
+        public void ArcsinCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new ArcsinCalculator().Calculate(3));
             Assert.Throws<Exception>(() => new ArcsinCalculator().Calculate(-3));

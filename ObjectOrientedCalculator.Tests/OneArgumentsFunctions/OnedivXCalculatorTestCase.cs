@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     public class OnedivXCalculatorTestCase
     {
         [Test]
-        public void OnedivXCaltulatorExtentionTest()
+        public void OnedivXCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new OnedivXCalculator().Calculate(0));
         }

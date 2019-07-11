@@ -1,7 +1,6 @@
 ﻿using System;
 using ObjectOrientedCalculator.TwoArgumentsFunctions;
 using NUnit.Framework;
-using ObjectOrientedCalculator.OneArgumentsFunctions;
 
 namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
 {
@@ -9,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     public class DivCalculatorTestCase
     {
         [Test]
-        public void DivCalculatorExtentionTest()
+        public void DivCalculatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new DivCalculator().Calculate(5, 0));
         }

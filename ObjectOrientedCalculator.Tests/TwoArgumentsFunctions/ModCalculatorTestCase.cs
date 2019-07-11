@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     public class ModCalculatorTestCase
     {
         [Test]
-        public void ModCalculatorExtentionTest()
+        public void ModCalculatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new ModCalculator().Calculate(10, 0));
         }

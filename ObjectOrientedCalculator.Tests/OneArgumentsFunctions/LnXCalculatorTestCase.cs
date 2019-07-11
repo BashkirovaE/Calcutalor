@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     public class LnXCalculatorTestCase
     {
         [Test]
-        public void LnXCaltulatorExtentionTest()
+        public void LnXCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new LnXCalculator().Calculate(-10));
         }

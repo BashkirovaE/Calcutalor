@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     public class LogXYCalculatorTestCase
     {
         [Test]
-        public void LogXYCalculatorExtentionTest()
+        public void LogXYCalculatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new LogXYCalculator().Calculate(2, -10));
         }

@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="Factories\TwoArgumentsFactoryTestCase.cs" />
     <Compile Include="Factories\OneArgumentFactoryTestCase.cs" />
-    <Compile Include="OneArgumentExtentionTests.cs" />
     <Compile Include="OneArgumentsFunctions\MinusXCalculatorTestCase.cs" />
     <Compile Include="OneArgumentsFunctions\LnXCalculatorTestCase.cs" />
     <Compile Include="OneArgumentsFunctions\DegXCalculatorTestCase.cs" />

@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     public class ArccosCalculatorTestCase
     {
         [Test]
-        public void ArccosCaltulatorExtentionTest()
+        public void ArccosCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new ArccosCalculator().Calculate(3));
             Assert.Throws<Exception>(() => new ArccosCalculator().Calculate(-3));

@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     public class CtanCalculatorTestCase
     {
         [Test]
-        public void CtanCaltulatorExtentionTest()
+        public void CtanCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new CtanCalculator().Calculate(0));
         }

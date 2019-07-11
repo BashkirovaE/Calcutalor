@@ -8,7 +8,7 @@ namespace ObjectOrientedCalculator.Tests.TwoArgumentsFunctions
     public class GeometricCalculatorTestCase
     {
         [Test]
-        public void GeometricCalculatorExtentionTest()
+        public void GeometricCalculatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new GeometricCalculator().Calculate(-8, 2));
         }

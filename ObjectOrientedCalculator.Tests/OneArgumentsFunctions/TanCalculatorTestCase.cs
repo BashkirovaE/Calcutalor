@@ -7,7 +7,7 @@ namespace ObjectOrientedCalculator.Tests.OneArgumentsFunctions
     [TestFixture]
     public class TanCalculatorTestCase
     {
-        public void TanCaltulatorExtentionTest()
+        public void TanCaltulatorExceptionTest()
         {
             Assert.Throws<Exception>(() => new TanCalculator().Calculate(Math.PI / 2));
             Assert.Throws<Exception>(() => new TanCalculator().Calculate(Math.PI / 2 * 3));
