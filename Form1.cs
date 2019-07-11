@@ -24,10 +24,30 @@ namespace ObjectOrientedCalculator
             }
             catch
             {
-                MessageBox.Show("Wrong value");
+                MessageBox.Show("Data entry error");
             }
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstValue, secondValue);
+
+            ITwoArgumentsCalculator calculator = null;
+            try
+            {
+                calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+            }
+            catch
+            {
+                MessageBox.Show("Unknown calculator type");
+            }
+
+            double result = 0;
+            try
+            {
+                result = calculator.Calculate(firstValue, secondValue);
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value. Can't calculate");
+            }
+            
+
             txtRes.Text = result.ToString();
             //vf
         }
@@ -41,13 +61,29 @@ namespace ObjectOrientedCalculator
             }
             catch
             {
-                MessageBox.Show("Wrong value");
+                MessageBox.Show("Data entry error");
             }
-            
-            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstValue);
+
+            IOneArgumentCalculator calculator = null;
+            try
+            {
+                calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            }
+            catch
+            {
+                MessageBox.Show("Unknown calculator type");
+            }
+
+            double result = 0;
+            try
+            {
+                result = calculator.Calculate(firstValue);
+            }
+            catch
+            {
+                MessageBox.Show("Wrong value. Can't calculate");
+            }
             txtRes.Text = result.ToString();
-            //vf
         }
     }
 }

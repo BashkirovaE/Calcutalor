@@ -1,4 +1,5 @@
 ﻿using ObjectOrientedCalculator.Interfaces;
+using System;
 
 namespace ObjectOrientedCalculator.TwoArgumentsFunctions
 {
@@ -6,6 +7,11 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     {
         public double Calculate(double firstValue, double secondValue)
         {
+            if (secondValue == 0)
+            {
+                throw new Exception("Division on null");
+            }
+            
             return firstValue / secondValue;
         }
     }

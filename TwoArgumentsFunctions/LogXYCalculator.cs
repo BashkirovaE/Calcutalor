@@ -7,6 +7,10 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     {
         public double Calculate(double firstValue, double secondValue)
         {
+            if (secondValue < 0)
+            {
+                throw new Exception("Negative number");
+            }
             return Math.Log(firstValue, secondValue);
         }
     }
