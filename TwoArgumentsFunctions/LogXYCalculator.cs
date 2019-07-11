@@ -7,7 +7,7 @@ namespace ObjectOrientedCalculator.TwoArgumentsFunctions
     {
         public double Calculate(double firstValue, double secondValue)
         {
-            if (secondValue < 0)
+            if (secondValue < 0 || firstValue == 1 || firstValue < 0)
             {
                 throw new Exception("Negative number");
             }
