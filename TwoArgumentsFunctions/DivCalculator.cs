@@ -3,8 +3,17 @@ using System;
 
 namespace ObjectOrientedCalculator.TwoArgumentsFunctions
 {
+    /// <summary>
+    /// Calculator that calculates the integer part of a division
+    /// </summary>
     public class DivCalculator : ITwoArgumentsCalculator
     {
+        /// <summary>
+        /// The method that calculates the value
+        /// </summary>
+        /// <param name="firstValue">dividend</param>
+        /// <param name="secondValue">divider</param>
+        /// <returns>integer result</returns>
         public double Calculate(double firstValue, double secondValue)
         {
             if (secondValue == 0)

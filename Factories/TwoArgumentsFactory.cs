@@ -4,8 +4,16 @@ using ObjectOrientedCalculator.TwoArgumentsFunctions;
 
 namespace ObjectOrientedCalculator.Factories
 {
+    /// <summary>
+    /// Factory class, returns the required two arguments calculator
+    /// </summary>
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// returns the required two arguments calculator by the name of the pressed button
+        /// </summary>
+        /// <param name="calculatorName">name of the pressed button</param>
+        /// <returns>object calculator</returns>
         static public ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

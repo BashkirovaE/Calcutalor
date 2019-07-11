@@ -11,7 +11,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
         /// <summary>
         /// The method that calculates the value
         /// </summary>
-        /// <param name="firstValue">argument</param>
+        /// <param name="firstValue">argument (the value in radians)</param>
         /// <returns>result</returns>
         public double Calculate(double firstValue)
         {
