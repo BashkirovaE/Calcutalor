@@ -14,7 +14,7 @@ namespace ObjectOrientedCalculator.OneArgumentsFunctions
         /// <returns>result</returns>
         public double Calculate(double firstValue)
         {
-            return (-firstValue);
+            return -firstValue;
         }
     }
 }

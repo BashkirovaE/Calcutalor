@@ -18,29 +18,29 @@ namespace ObjectOrientedCalculator.Factories
         {
             switch (calculatorName)
             {
-                case "btn_div":
+                case "div":
                     return new DivisionCalculator();
-                case "btn_add":
+                case "add":
                     return new AdditionCalculator();
-                case "btn_mul":
+                case "mul":
                     return new MultiplyCalculator();
-                case "btn_sub":
+                case "sub":
                     return new SubtractionCalculator();
-                case "btn_xpowy":
+                case "xpowy":
                     return new PowXYCalculator();
-                case "btn_logxy":
+                case "logxy":
                     return new LogXYCalculator();
-                case "btn_minxy":
+                case "minxy":
                     return new MinXYCalculator();
-                case "btn_mod":
+                case "mod":
                     return new ModCalculator();
-                case "btn_divxony":
+                case "divxony":
                     return new DivCalculator();
-                case "btn_max":
+                case "max":
                     return new MaxXYCalculator();
-                case "btn_average":
+                case "average":
                     return new AverageCalculator();
-                case "btn_geometric":
+                case "geometric":
                     return new GeometricCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");

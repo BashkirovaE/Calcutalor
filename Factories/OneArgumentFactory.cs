@@ -18,33 +18,33 @@ namespace ObjectOrientedCalculator.Factories
         {
             switch (calculatorName)
             {
-                case "btn_sin":
+                case "sin":
                     return new SinusCalculator();
-                case "btn_cos":
+                case "cos":
                     return new CosinusCalculator();
-                case "btn_xpow2":
+                case "xpow2":
                     return new Xpow2Calculator();
-                case "btn_1divx":
+                case "onedivx":
                     return new OnedivXCalculator();
-                case "btn_absx":
+                case "absx":
                     return new AbsXCalculator();
-                case "btn_radx":
+                case "radx":
                     return new RadXCalculator();
-                case "btn_degx":
+                case "degx":
                     return new DegXCalculator();
-                case "btn_lnx":
+                case "lnx":
                     return new LnXCalculator();
-                case "btn_negativex":
+                case "negativex":
                     return new MinusXCalculator();
-                case "btn_tan":
+                case "tan":
                     return new TanCalculator();
-                case "btn_ctan":
+                case "ctan":
                     return new CtanCalculator();
-                case "btn_asin":
+                case "asin":
                     return new ArcsinCalculator();
-                case "btn_acos":
+                case "acos":
                     return new ArccosCalculator();
-                case "btn_atan":
+                case "atan":
                     return new ArctanCalculator();
                 default:
                     throw new Exception("Неизвестный тип калькулятора");
